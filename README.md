@@ -9,8 +9,8 @@ Export your full conversation histories from **ChatGPT**, **Claude**, and **Micr
 
 This exists because the current ways are to rely on the companies to give you **your** data and they just be making it extra annoying for no reason which is ironic considering how they got their data.
 
-**Note: If you have like a ton of Conversations like 200+ it will hit the rate limit in that case just let the program run in the background and you'll have your chats in a couple of hours or so. (yes this is hacky, sue me)
-**
+**Note: If you have like a ton of Conversations (like 200+) it will hit the rate limit in that case just let the program run in the background and you'll have your chats in a couple of hours or so. (yes this is hacky, sue me)**
+
 ---
 
 ## ⚡ Highlights
@@ -71,6 +71,8 @@ You'll see an interactive menu where you can copy the browser extraction scripts
 ---
 
 #### 🟠 2. Claude (`claude.ai`)
+**Note- Haven't personally tested the claude one sooo good luck soldier** 
+
 1. Log into [claude.ai](https://claude.ai).
 2. Open Developer Tools (`F12` $\rightarrow$ **Console**).
 3. Copy the script:
@@ -138,13 +140,13 @@ If OpenAI, Anthropic, or Microsoft ever updates their internal payload format:
 1. Open your browser DevTools (`F12`), go to the **Network** tab, and filter by `Fetch/XHR` to view the new conversation endpoint.
 2. Open this folder in an AI coding assistant (like **Google Antigravity**) and prompt:
    > *"The service changed its conversation API response to [paste new response sample]. Please update the extraction script and the parser in ai_chat_export.py to support this format."*
-3. Test locally and submit a Pull Request!
+3. Test locally and submit a Pull Request (if you feel like it idk im not your mom)
 
 ---
 
 ## 🔒 Privacy & Security
 
-- **No telemetry, no analytics, no external servers.**
+- No telemetry, no analytics, no external servers.
 - All conversion and formatting happens strictly in-memory on your local device.
 
 ---
