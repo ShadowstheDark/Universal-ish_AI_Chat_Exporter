@@ -1,0 +1,27 @@
+# Ignore personal conversation exports & raw data dumps
+*.txt
+*.md
+!README.md
+*.json
+*_individual_chats/
+chats/
+exports/
+dump/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+.env
